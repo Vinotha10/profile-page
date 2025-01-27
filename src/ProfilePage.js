@@ -20,6 +20,7 @@
             avatar: '/avatar.png', // Assuming the avatar.png is in the public folder
         });
         }, 1000);
+        setError("An example error occurred!");
     }, []);
 
     const handleSubmit = (values, { setSubmitting }) => {
